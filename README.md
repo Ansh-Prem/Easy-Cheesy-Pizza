@@ -1,5 +1,5 @@
 
-<p align="center">✨🚀<em>Pizza Fleet is a pizza delivery web application that allows customers to order pizzas online. The application also allows customers to manage their profile, view their orders history and shipping addresses, and switch between light and dark mode. It is built using modern web technologies and provides an intuitive and easy-to-use interface for customers to order their favorite pizzas.
+<p align="center">✨🚀<em>Easy Cheezy Pizza is a pizza delivery web application that allows customers to order pizzas online. The application also allows customers to manage their profile, view their orders history and shipping addresses, and switch between light and dark mode. It is built using modern web technologies and provides an intuitive and easy-to-use interface for customers to order their favorite pizzas.
 <br>
 Built from scratch with MERN Stack (ReactJS, NodeJS, ExpressJS, MongoDB).</em>✨🚀</p>
 
