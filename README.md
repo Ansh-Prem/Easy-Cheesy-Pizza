@@ -53,7 +53,7 @@ Built from scratch with MERN Stack (ReactJS, NodeJS, ExpressJS, MongoDB).</em>âœ
 
 ```
 git clone https://github.com/Ansh-Prem/Easy-Cheesy-Pizza.git
-cd Pizza-Fleet
+cd Easy-Cheezy-Pizza
 ```
 
 <p align="center"><strong>2- Install Client dependencies.</strong></p>
