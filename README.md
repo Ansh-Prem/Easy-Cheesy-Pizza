@@ -1,73 +1,110 @@
-# Easy-Cheesy-Pizza
+
+<p align="center">✨🚀<em>Pizza Fleet is a pizza delivery web application that allows customers to order pizzas online. The application also allows customers to manage their profile, view their orders history and shipping addresses, and switch between light and dark mode. It is built using modern web technologies and provides an intuitive and easy-to-use interface for customers to order their favorite pizzas.
+<br>
+Built from scratch with MERN Stack (ReactJS, NodeJS, ExpressJS, MongoDB).</em>✨🚀</p>
+
+[Live Demo](https://pizzafleet.ilyasbelfar.me/)
 
 ---
 
-## <p align="center">📌 Contributions 📌</p>
+### <p align="center">☄ Features ☄</p>
 
-<p align="center">I, <strong>Ansh Prem</strong>, welcome contributions! Feel free to open issues or suggest features. To contribute:</p>
+- Customer authentication: Customers can register and login using either email and password or OAuth via Google or Facebook accounts. JWT tokens are used to authenticate and authorize requests.
 
-1. Fork [this repo](https://github.com/Ansh-Prem/Easy-Cheesy-Pizza)
-2. Create a new branch (`git checkout -b new-feature`)
-3. Commit your changes (`git commit -am 'Add a new feature'`)
-4. Push the branch (`git push origin new-feature`)
-5. [Submit a pull request](https://github.com/Ansh-Prem/Easy-Cheesy-Pizza/pull/new/main)
+- Pizza menu: Customers can browse the available pizza menu and select the pizzas they want to order. They can also see the details of each pizza, including the description, toppings, and price.
+
+- Search bar: Allows users to search for pizzas by name.
+
+- Price range slider filter: Allows users to filter pizzas by price.
+
+- Pizza selection and quantity: Customers can select the pizzas they want to order and specify the quantity.
+
+- Shopping cart management: Customers can add pizzas to their shopping cart, update the quantity of a pizza item, or delete an pizza item from the shopping cart.
+
+- Coupons application: Customers can apply coupons to their shopping cart, which are specific to a particular pizza. The application checks the validity of the coupon and applies the discount to the total price of the order.
+
+- Order placement: Customers can place orders by specifying their delivery address and confirming their order details.
+
+- Profile management: Customers can view and edit their profile information, including their name, email, and password. They can also view their shipping addresses and their orders history.
+
+- Light and Dark mode: Customers can switch between light and dark mode, depending on their preference.
+
+- ... And more to come with next updates!
+  <br>
 
 ---
 
-<p align="center">🍕 Made with passion for pizza by <strong>Ansh Prem</strong> 🍕</p>
+## <p align="center">💻 Used Technologies 💻</p>
 
+- ReactJS
+- ExpressJS
+- NodeJS
+- MongoDB
+- Redux
+- Redux Toolkit
+- Mantine UI V5
+
+---
+
+## <p align="center">❓ How to use ❓</p>
+
+<br>
+<p align="center"><strong>1- Clone this repo.</strong></p>
+
+```
+git clone https://github.com/Ansh-Prem/Easy-Cheesy-Pizza.git
+cd Pizza-Fleet
+```
 
 <p align="center"><strong>2- Install Client dependencies.</strong></p>
 
+```
+cd client/
+npm i
+```
 
 <p align="center"><strong>3- Install Server dependencies.</strong></p>
 
+```
+cd server/
+npm i
+```
 
+<p align="center"><strong>4- Configure environment variables by creating .env file in the server directory and copy the content of env.example file in .env file, and fill it with your own secrets.</strong></p>
 
-<p align="center"><strong>4- Set up environment variables.</strong></p>
+```
+cd server/
+cp env.example .env
+```
 
+<p align="center"><strong>5- Create a MongoDB database and name it 'my_app', You can use MongoDB Atlas cloud free tier.</strong></p>
 
-> Fill in your `.env` file with your own secrets.
+<p align="center"><strong>6- Start server.</strong></p>
 
-<p align="center"><strong>5- Create a MongoDB database (e.g., 'my_app') via MongoDB Atlas.</strong></p>
+```
+cd server/
+npm start
+```
 
-<p align="center"><strong>6- Start the server.</strong></p>
+<p align="center"><strong>7- Start client in another terminal while the server is running.</strong></p>
 
-
-<p align="center"><strong>7- In a new terminal, start the client.</strong></p>
-
-
----
-
-## <p align="center">📌 Contributions 📌</p>
-
-<p align="center">I, <strong>Ansh Prem</strong>, welcome contributions! Feel free to open issues or suggest features. To contribute:</p>
-
-1. Fork [this repo](https://github.com/Ansh-Prem/Easy-Cheesy-Pizza)
-2. Create a new branch (`git checkout -b new-feature`)
-3. Commit your changes (`git commit -am 'Add a new feature'`)
-4. Push the branch (`git push origin new-feature`)
-5. [Submit a pull request](https://github.com/Ansh-Prem/Easy-Cheesy-Pizza/pull/new/main)
-
----
-
-<p align="center">🍕 Made with passion for pizza by <strong>Ansh Prem</strong> 🍕</p>
-
-
-
+```
+cd client/
+npm start
+```
 
 ---
 
-## <p align="center">📌 Contributions 📌</p>
+## <p align="center">📌 Other 📌</p>
 
-<p align="center">I, <strong>Ansh Prem</strong>, welcome contributions! Feel free to open issues or suggest features. To contribute:</p>
+<br>
+<p align="center">I encourages contributions! Feel free to discuss any bug fixes/features in the issues section. And if you wish to work on this project:</p>
 
-1. Fork [this repo](https://github.com/Ansh-Prem/Easy-Cheesy-Pizza)
-2. Create a new branch (`git checkout -b new-feature`)
-3. Commit your changes (`git commit -am 'Add a new feature'`)
-4. Push the branch (`git push origin new-feature`)
-5. [Submit a pull request](https://github.com/Ansh-Prem/Easy-Cheesy-Pizza/pull/new/main)
+1. Fork [this project](https://github.com/Ansh-Prem/Easy-Cheesy-Pizza.git)
+2. Create a branch (`git checkout -b new-branch`)
+3. Commit your changes (`git commit -am 'add new feature'`)
+4. Push to the branch (`git push origin new-branch`)
+5. [Submit a pull request!](https://github.com/Ansh-Prem/Easy-Cheesy-Pizza/pull/new/master)
 
----
 
 <p align="center">🍕 Made with passion for pizza by <strong>Ansh Prem</strong> 🍕</p>
